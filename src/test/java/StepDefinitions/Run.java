@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 import java.io.File;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = ".", tags = {"@withoutpartnerwithbenefits"}, dryRun = false)
+@CucumberOptions(features = ".", tags = {"@test"}, dryRun = false)
 
     public class Run
     {

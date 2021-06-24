@@ -28,7 +28,7 @@ public class CommonUtils {
                     driver = new ChromeDriver();
                     break;
                 case "Firefox":
-                    WebDriverManager.chromedriver().setup();
+                    WebDriverManager.firefoxdriver().setup();
                     driver = new FirefoxDriver();
                     break;
                 default:
